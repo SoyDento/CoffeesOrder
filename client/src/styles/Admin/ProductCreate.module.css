@@ -1,0 +1,148 @@
+.container {
+  background-color: var(--primary);
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  color: rgb(114, 114, 114);
+  margin-left: 6px;
+}
+
+.p_form {
+  color: var(--strong);
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+#submit {
+  background-color: var(--strong);
+  color: var(--white);
+  border-color: var(--strong);
+  border-radius: 3px;
+  margin: 6px;
+  box-shadow: 5px 5px 10px var(--black);
+  font-size: 2rem;
+}
+
+.seleSelect {
+  border-radius: 12px;
+  width: 30vh;
+  padding-left: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  background-color: var(--primary);
+  border-color: var(--strong);
+  color: rgb(114, 114, 114);
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 1vh;
+}
+
+.seleSelect:hover {
+  background-color: var(--strong);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+
+.seleOption {
+  color: black;
+  background-color: aliceblue;
+}
+
+.selecteddiets {
+  display: contents;
+  font-size: large;
+  padding: 10px;
+  color: blanchedalmond;
+}
+
+.selectedItems {
+  display: flex;
+  background-color: rgba(244, 223, 121, 0.5);
+  border-radius: 10px;
+  width: 20vw;
+  margin: 2px;
+  padding: 2px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.form_control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem rem 0.75rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.upload {
+  background-color: #fceef0;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.error {
+  font-size: 10px;
+  color: #DD6873;
+  text-align: center;
+  font-weight: 700;
+}
+
+.remove {
+  margin-top: 20px;
+  background: var(--primary);
+  font-size: 15px;
+  border: none;
+  margin: 10px;
+  color: var(--strong);
+  font-weight: 700;
+}
+
+.remove:focus {
+  box-shadow: none;
+}
+
+.botonesformC {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--strong);
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: x-large;
+}
+
+.h1modal {
+  text-align: center;
+}
+
+.conteimodal {
+  /* margin: 5vh; */
+  padding: 3vh;
+  background-color: #EEF7FC;
+  border-color: #DD6873;
+  border-radius: 30px;
+
+}
+.buttonModal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
