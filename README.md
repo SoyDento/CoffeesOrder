@@ -38,19 +38,7 @@ Puedes acceder al sitio web desde el siguiente link: [Coffee´s Order](https://c
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
 
-En `api` crear un archivo llamado: `.env` que tenga la siguiente forma:
 
-```env
-DB_USER = postgres
-DB_PASSWORD = SU PASSWORD
-DB_HOST = localhost:5432
-PORT = 3001
-FRONT = 3000
-SECRET = pepito
-DB_NAME=coffee
-FRONTEND_URL=http://localhost:3000
-ACCESS_TOKEN = "TEST-4244633596829734-092014-6ba221809cba6b90a563f64fd0e65d84-176832394"
-```
 
 __``Opción 1:`` Desde la consola creamos nuestra base de datos__
 
